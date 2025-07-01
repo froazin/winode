@@ -10,8 +10,8 @@ Easily manage multiple Node.js versions on Windows with WiNode, a simple command
 
 ### Commands
 
-- `search <query>`: Search for Node.js versions.
+- `list`: List available Node.js versions.
 - `install <version>`: Install a specific Node.js version.
 - `uninstall <version>`: Uninstall a specific Node.js version.
-- `list`: List all installed Node.js versions.
+- `update <version>`: Update a specific Node.js version.
 - `use <version>`: Switch to a specific Node.js version.

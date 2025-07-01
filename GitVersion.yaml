@@ -1,0 +1,12 @@
+# GitVersion Configuration File
+# yaml-language-server: https://gitversion.net/schemas/6.0/GitVersion.configuration.json
+---
+mode: ContinuousDeployment
+
+branches:
+  main:
+    regex: main
+    increment: Patch
+
+ignore:
+  sha: []
