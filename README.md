@@ -1,6 +1,8 @@
-# WiNode
+# WiNode (WinGet + Node)
 
 Easily manage multiple Node.js versions on Windows with WiNode, a simple command-line tool that allows you to install, update, and switch between different Node.js versions effortlessly. WiNode uses WinGet behind the scenes to handle the installation and management of Node.js versions and as such, provides a native Windows experience.
+
+WiNode is designed to be a "Good Citizen" of the Windows ecosystem, using native tools to ensure compatibility with Enterprise package management systems.
 
 ## Features
 
@@ -10,8 +12,8 @@ Easily manage multiple Node.js versions on Windows with WiNode, a simple command
 
 ### Commands
 
-- `search <query>`: Search for Node.js versions.
+- `list`: List available Node.js versions.
 - `install <version>`: Install a specific Node.js version.
 - `uninstall <version>`: Uninstall a specific Node.js version.
-- `list`: List all installed Node.js versions.
+- `update <version>`: Update a specific Node.js version.
 - `use <version>`: Switch to a specific Node.js version.
